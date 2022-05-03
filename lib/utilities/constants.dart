@@ -9,10 +9,17 @@ const kBlack = Color(0xFF000000);
 
 const darkModePrimaryColor = Colors.white;
 const darkModeSecondaryColor = Colors.grey;
-const darkModeAccentColor = Colors.white;
+const darkModeAccentColor = Colors.black;
 
 const lightModePrimaryColor = Colors.black;
 const lightModeSecondaryColor = Colors.grey;
-const lightModeAccentColor = Colors.black;
+const lightModeAccentColor = Colors.white;
 
 const defaultPadding = 10.0;
+
+//Location Service Constants
+const String _kLocationServicesDisabledMessage =
+    'Location services are disabled.';
+const String _kPermissionDeniedMessage = 'Permission denied.';
+const String _kPermissionDeniedForeverMessage = 'Permission denied forever.';
+const String _kPermissionGrantedMessage = 'Permission granted.';
